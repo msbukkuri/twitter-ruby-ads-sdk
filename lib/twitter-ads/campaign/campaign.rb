@@ -36,5 +36,18 @@ module TwitterAds
       self
     end
 
+    # Allows the batch creation of new Campaigns with a single request
+    #
+    #
+    # @param operation_type The enum values for the operation type are "Create", "Update", or "Delete"
+    # @param params A JSON object containing all params for the [Campaign] object.
+    #
+    # @return [Array] An array of valid placement combinations.
+    #
+    # @see https://dev.twitter.com/ads/reference/post/batch/accounts/%3Aaccount_id/campaigns
+    def batch()
+
+    end
+
   end
 end
